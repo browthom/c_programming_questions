@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : Ch.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void determine_bills(int dollar_amount) {
+
+}
+
+int main(void) {
+
+	int money = 0;
+	int error = 0;
+
+	do {
+		printf("Enter Amount Desired in Multiples of $10 => ");
+		fflush(stdout);
+
+		scanf("%d", &money);
+
+		// Ensure that the number entered by the user
+		// is actually divisible by $10
+		if (money % 10 != 0) {
+			error = 1;
+			printf("Invalid Dollar Amount.\n");
+		} else {
+			error = 0;
+		}
+
+	// Continue until user has entered a valid amount
+	} while (error);
+
+
+
+	return 0;
+}

@@ -1,0 +1,57 @@
+/*
+ ============================================================================
+ Name        : Ch.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void determine_change(float amount,
+					  int *dollars,
+					  int *quarters,
+					  int *dimes,
+					  int *nickels,
+					  int *pennies) {
+
+	float remaining_amount = amount;
+
+	*dollars = amount;
+	remaining_amount = remaining_amount - *dollars;
+	*quarters = remaining_amount / 0.25;
+	remaining_amount = remaining_amount - (*quarters * 0.25);
+	*dimes = remaining_amount / 0.1;
+	remaining_amount = remaining_amount - (*dimes * 0.1);
+	*pennies = remaining_amount / 0.01;
+}
+
+int main(void) {
+	float amount_due = 0.0, amount_paid = 0.0;
+
+	int dollars = 0, quarters = 0, dimes = 0, nickels = 0, pennies = 0;
+
+	do {
+		printf("Enter Amount Due => ");
+		fflush(stdout);
+		scanf("%f", &amount_due);
+		printf("Enter Amount Paid => ");
+		fflush(stdout);
+		scanf("%f", &amount_paid);
+
+	} while (0);
+
+	float change = amount_due - amount_paid;
+
+	determine_change(change,
+				     &dollars,
+					 &quarters,
+					 &dimes,
+					 &nickels,
+					 &pennies);
+
+	return 0;
+}

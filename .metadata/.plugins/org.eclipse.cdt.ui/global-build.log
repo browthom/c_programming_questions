@@ -1,0 +1,45 @@
+13:37:06 **** Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+Building file: ../src/Ch 6 - Problem 3.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ch 6 - Problem 3.d" -MT"src/Ch\ 6\ -\ Problem\ 3.d" -o "src/Ch 6 - Problem 3.o" "../src/Ch 6 - Problem 3.c"
+Finished building: ../src/Ch 6 - Problem 3.c
+ 
+Building target: Ch 6 - Problem 3.exe
+Invoking: Cygwin C Linker
+gcc  -o "Ch 6 - Problem 3.exe"  ./src/Ch\ 6\ -\ Problem\ 3.o   
+Finished building target: Ch 6 - Problem 3.exe
+ 
+13:37:13 **** Incremental Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+make: Nothing to be done for 'all'.
+13:38:11 **** Incremental Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+Building file: ../src/Ch 6 - Problem 3.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ch 6 - Problem 3.d" -MT"src/Ch\ 6\ -\ Problem\ 3.d" -o "src/Ch 6 - Problem 3.o" "../src/Ch 6 - Problem 3.c"
+Finished building: ../src/Ch 6 - Problem 3.c
+ 
+Building target: Ch 6 - Problem 3.exe
+Invoking: Cygwin C Linker
+gcc  -o "Ch 6 - Problem 3.exe"  ./src/Ch\ 6\ -\ Problem\ 3.o   
+Finished building target: Ch 6 - Problem 3.exe
+ 
+13:38:13 **** Incremental Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+make: Nothing to be done for 'all'.
+13:38:36 **** Incremental Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+Building file: ../src/Ch 6 - Problem 3.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ch 6 - Problem 3.d" -MT"src/Ch\ 6\ -\ Problem\ 3.d" -o "src/Ch 6 - Problem 3.o" "../src/Ch 6 - Problem 3.c"
+Finished building: ../src/Ch 6 - Problem 3.c
+ 
+Building target: Ch 6 - Problem 3.exe
+Invoking: Cygwin C Linker
+gcc  -o "Ch 6 - Problem 3.exe"  ./src/Ch\ 6\ -\ Problem\ 3.o   
+Finished building target: Ch 6 - Problem 3.exe
+ 
+13:38:38 **** Incremental Build of configuration Debug for project Ch 6 - Problem 3 ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,9 @@
+CC=gcc
+CFLAGS=-g
+EXECS=q1
+
+all: $(EXECS)
+
+clean:
+	rm -f *.0 $(EXECS)
+	

@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Ch.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void determine_change(double amount,
+					  int *dollars,
+					  int *quarters,
+					  int *dimes,
+					  int *nickels,
+					  int *pennies) {
+
+}
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

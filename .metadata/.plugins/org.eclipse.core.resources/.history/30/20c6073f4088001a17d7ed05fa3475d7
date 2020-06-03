@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : ch2p1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define DOLLAR_PER_MILE 0.35
+
+int main(void) {
+
+	printf("MILEAGE REIMBURSEMENT CALCULATOR");
+
+	return 0;
+}

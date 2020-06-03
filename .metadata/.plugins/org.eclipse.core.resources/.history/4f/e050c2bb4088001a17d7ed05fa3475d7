@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : ch2p1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define DOLLAR_PER_MILE 0.35
+
+int main(void) {
+
+	double beginning_mileage = 0;
+	double ending_mileage = 0;
+
+	printf("MILEAGE REIMBURSEMENT CALCULATOR");
+
+	scanf("Enter beginning odometer reading=> %f", beginning_mileage);
+	scanf("Enter ending odometer reading=> %f", ending_mileage);
+
+
+	return 0;
+}
+
+double get_difference(int num1, int num2) {
+	return num1 - num2;
+}
